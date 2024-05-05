@@ -24,7 +24,7 @@ http://127.0.0.1:8000/omlet/
 Например:
 
 ```
-http://127.0.0.1:8000/omlet/?servings=4
+http://127.0.0.1:8000/recipes/omlet/?servings=4
 
 # Ответ
 яйца, шт: 8
