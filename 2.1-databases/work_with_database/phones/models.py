@@ -9,3 +9,4 @@ class Phone(models.Model):
     release_date = models.DateField(verbose_name='Дата релиза')
     lte_exists = models.BooleanField(default=True,verbose_name='Поддержка LTE')
     slug = models.SlugField(unique=True, verbose_name='URL_slug')
+    
