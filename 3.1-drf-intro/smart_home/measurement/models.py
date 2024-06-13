@@ -6,6 +6,8 @@ class Sensor(models.Model):
     name = models.CharField(max_length=50, verbose_name='Название')
     description = models.TextField(verbose_name='Описание')
 
+    def __str__(self):
+        return f'{self.name} - {self.description}'
 
 class Measurement(models.Model):
     temperature = models.FloatField(verbose_name='Температура')
