@@ -33,3 +33,5 @@ class StockProduct(models.Model):
         decimal_places=2,
         validators=[MinValueValidator(0)],
     )
+    def __str__(self):
+        return f'stock: {self.stock}/n products: {self.product}/n quantity: {self.quantity}/n price: {self.price}/n'
